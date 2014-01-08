@@ -1,0 +1,24 @@
+{
+  "name": "livedemo",
+  "version": "0.0.0",
+  "description": "Turn highlighted HTML, CSS and JavaScript <code> snippets into live demos",
+  "main": "livedemo.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taye/livedemo.git"
+  },
+  "keywords": [
+    "interactive",
+    "live",
+    "demo",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Taye Adeyemi <dev@taye.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taye/livedemo/issues"
+  },
+  "homepage": "http://livedemojs.com"
+}

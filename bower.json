@@ -1,0 +1,26 @@
+{
+  "name": "livedemo",
+  "main": "livedemo.js",
+  "version": "0.0.0",
+  "authors": [
+    "Taye Adeyemi <dev@taye.me>"
+  ],
+  "description": "Turn highlighted HTML, CSS and JavaScript <code> snippets into live demos",
+  "keywords": [
+    "interactive",
+    "live",
+    "demo",
+    "html",
+    "css",
+    "js"
+  ],
+  "license": "MIT",
+  "homepage": "http://livedemojs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
