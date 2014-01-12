@@ -86,7 +86,7 @@ demoSvg.addEventListener('click', function (event) {
 
 ```javascript
 /* enable javascript */
-var colours = ['white', 'black'];
+var colors = ['white', 'black'];
 
 setInterval(function () {
     demoSvg.style.backgroundColor = colors[0];
@@ -109,7 +109,7 @@ settings for *livedemo* if they are set before the `DOMContentLoaded` event
 occurs and calls `window.liveDemo`. The properties are:
 
  - `HTMLSelector`, `JSSelector`, `CSSSelector`: Elements matching these CSS
-   selectors will be checkd for HTMLFlag, CSSFlag and JSFlag respectively. The
+   selectors will be checked for HTMLFlag, CSSFlag and JSFlag respectively. The
 default values are:
    - HTML:
      `'code.language-xml,code.language-html,code.language-markup,code.xml,code.html'`
@@ -129,7 +129,7 @@ default values are:
 is `2` as explained in the "HTML" section of this document.
 
  - `insertPosition`: The position to insert `div.live-demo`s relative to the
-   element that is `demoCodeDepth` levels up from the `<code>` element. The
+   element that is `codeElementDepth` levels up from the `<code>` element. The
 default value is `'afterend'`. See [Element.insertAdjacentHTML][mdn-insert-adj]
 for other values.
 
