@@ -1,6 +1,6 @@
 {
   "name": "livedemo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Turn highlighted HTML, CSS and JavaScript <code> snippets into live demos",
   "main": "livedemo.js",
   "repository": {

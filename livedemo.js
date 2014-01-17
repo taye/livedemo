@@ -1,5 +1,5 @@
 /**
- * livedemo v0.0.0
+ * livedemo 0.0.1
  *
  * Copyright (c) 2014 Taye Adeyemi <dev@taye.me>
  * Open source under the MIT License.
