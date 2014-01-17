@@ -91,9 +91,9 @@ document.addEventListener('DOMContentLoaded', this.liveDemo = function (event) {
             element.removeChild(element.childNodes[0]);
         }
 
-        // eval code
+        // Try to run code
         try {
-            eval(element.textContent);
+            new Function(element.textContent)();
         } catch (error) {
             console.error('livedemo failed to execute a javascript code block');
             console.log({ element: element, error: error });
