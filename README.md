@@ -14,7 +14,7 @@ Use it
    [*redcarpet*][redcarpet] or [*Pygments*][pygments] (both available in
 [*Jekyll*][jekyll]) or [*Prism*][prism].
 
-3. Download and include the script somewhere in your HTML page: `<script
+3. [Download][min-gh-raw] and include the script somewhere in your HTML page: `<script
    src="livedemo.min.js"></script>` (after Prisim if you're using it).
 
 ---
@@ -137,6 +137,7 @@ License
 -------
 [MIT][mit]
 
+[min-gh-raw]: https://raw2.github.com/taye/livedemo/master/livedemo.min.js "minified script"
 [redcarpet]: https://github.com/vmg/redcarpet "The safe Markdown parser, reloaded"
 [pygments]: http://pygments.org "Python syntax highlighter"
 [jekyll]: http://jekyllrb.com "Simple, blog-aware, static sites"
