@@ -3,7 +3,7 @@ livedemo
 
 Turn highlighted HTML, CSS and JavaScript `<code>` snippets into live demos.
 
-Initially written for [this blog post][svg-use-post].
+Initially written for [this blog post][svg-use-post]. Also used on interactjs.io.
 
 Use it
 ------
@@ -14,8 +14,8 @@ Use it
    [*redcarpet*][redcarpet] or [*Pygments*][pygments] (both available in
 [*Jekyll*][jekyll]) or [*Prism*][prism].
 
-3. [Download][min-gh-raw] and include the script somewhere in your HTML page: `<script
-   src="livedemo.min.js"></script>` (after Prisim if you're using it).
+3. `npm install livedemo` and call `require('livedemo')(options)` (after Prisim if
+   you're using it).
 
 ---
 
@@ -102,12 +102,8 @@ JavaScript code is executed after HTML and CSS is inserted into the document.
 If the execution of a code block throws an error, the element and error are
 logged to the console.
 
-Configuration
----------------
-The properties of the object `window.liveDemoSettings` are used to change
-settings for *livedemo* if they are set before the `DOMContentLoaded` event
-occurs and calls `window.liveDemo`. The properties are:
-
+Options
+-------
  - `HTMLSelector`, `JSSelector`, `CSSSelector`: Elements matching these CSS
    selectors will be checked for HTMLFlag, CSSFlag and JSFlag respectively. The
 default values are:

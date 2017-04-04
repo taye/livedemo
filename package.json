@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/taye/livedemo/issues"
   },
-  "homepage": "http://livedemojs.com"
+  "homepage": "http://livedemojs.com",
+  "dependencies": {
+    "queryselectorall": "^0.1.0"
+  }
 }
